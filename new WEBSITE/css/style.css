@@ -1,0 +1,183 @@
+.nav{
+     height:50px;
+     background:purple;
+}
+.nav div{
+     display:inline-block;
+     position:absolute;
+     left:10;
+     padding:15px;
+     font-size:20px;
+     color:pink;
+}
+.nav ul{
+     position:absolute;
+     right:10px;
+}
+.nav ul li{
+     display:inline-block;
+}
+.nav ul li a{
+     color:white;
+     padding:10px;
+}
+.home{
+      
+      background-size:cover;
+      height:100vh;
+}
+.home .text-container {
+      color:darkblue;
+      text-align:center;
+      font-family:'Roboto',sans-serif;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:90vh;
+}
+.about{
+      background: url("../IMAGES/2.jpg");
+      background-size:cover;
+      height:100vh;
+}
+.about-content{
+      margin:150px auto 0 auto;
+      width:500px;
+}
+.about-content h1{
+text-align:center;
+font-family:'Roboto',sans-serif;
+color:pink;
+}
+.about-content p{
+text-align:justify;
+font-family:'Roboto',sans-serif;
+color:purple;
+}
+.services{
+      background: url("../IMAGES/3.jpg");
+      background-size:cover;
+      height:100vh;
+}
+.services-content h1{
+text-align:center;
+font-family:'Roboto',sans-serif;
+color:red;
+}
+.services-content p{
+text-align:justify;
+font-family:'Lato',sans-serif;
+color:black;
+}
+.contact{
+      background: url("../IMAGES/7.jpg");
+      background-size:cover;
+      height:100vh;
+}
+.contact-content{
+      margin:150px auto 0 auto;
+      width:200px;
+}
+.contact-content h1{
+text-align:center;
+font-family:'Roboto',sans-serif;
+color:darkblue;
+}
+.contact-content .address-holder {
+text-align:center;
+font-family:'Lato',sans-serif;
+color:white;
+}
+
+body{
+  font-family: 'Open Sans',sans-serif;
+  background:url(../IMAGES/1.jpg);
+}
+.container{
+  width: 1500px;
+  height: 700px;
+  margin: 30px auto;
+}
+.calculator{
+  width:350px;
+  height:550px;
+  background-color: white;
+  margin: 0 auto;
+  top:40px;
+  position:relative;
+  border-radius: 5px;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2) ,0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#result{
+  height:120px;
+}
+#history{
+  text-align: right;
+  height: 20px;
+  margin:0 20px;
+  padding-top: 15px;
+  font-size: 15px;
+  color: purple;
+}
+#output{
+  text-align: right;
+  height: 60px;
+  margin: 8px 15px;
+  font-size:25px;
+}
+#keyboard{
+  height: 250px;
+  padding-top: 0px;
+  margin:12px 8px;
+  margin-bottom: 200px;
+
+
+
+}
+.number,.empty,.operator{
+  width:50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius:50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.number,.empty{
+  background-color: white;
+}
+.number,.operator{
+  cursor: pointer;
+}
+.number:active, .operator:active{
+  font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+  outline: 0;
+}
+button:nth-child(4){
+  font-size: 20px;
+  background-color: red;
+}
+button:nth-child(8){
+  font-size: 20px;
+  background-color: yellow;
+}
+button:nth-child(12){
+  font-size: 20px;
+  background-color: green;
+}
+button:nth-child(16){
+  font-size: 20px;
+  background-color: blue;
+}
+button:nth-child(20){
+  font-size: 20px;
+  background-color: orange;
+}
+
+
+
+
+
